@@ -73,7 +73,7 @@ export default function AddPost() {
                         />
                     </div>
                     <div className={styles.formItem}>
-                        <label>Content</label>
+                        <label>Contents</label>
                         <textarea
                             name="content"
                             onChange={(e) => setContent(e.target.value)}
