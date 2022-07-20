@@ -7,7 +7,7 @@ reproduction d'un tuto disponible ici : <a>`https://www.section.io/engineering-e
 2) config et installation dans le projet de mongoDb:
  - `npm install mongodb`
  - on va sur mongo db créer une bdd
- - on récupère nos id que l'on rentre dans un fichier .env.local sous MONGO_URI
+ - on récupère nos id que l'on rentre dans un fichier .env.local sous MONGODB_URI
  - on renseigne les autres variables d'environnement 
 3) configuration de mongodb dans le projet
  - on crée un dossier lib dans lequel on crée un fichier mongodb.js qui gérera la connection avec la bdd
