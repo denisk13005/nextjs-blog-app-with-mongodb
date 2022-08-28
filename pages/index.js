@@ -33,7 +33,7 @@ export default function Home({ posts }) {
 export async function getServerSideProps(ctx) {
     // get the current environment
     let dev = process.env.NODE_ENV !== 'production';
-    let server = dev ? "http://localhost:3000" : "https://nextjsmongo.herokuapp.com"
+    let server = dev ? "http://localhost:3001" : "https://nextjs-blog-app-with-mongodb-five.vercel.app/"
     // request posts from api
     let response = await fetch(`${server}/api/posts`);
     // extract the data
